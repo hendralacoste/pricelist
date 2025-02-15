@@ -878,6 +878,11 @@
       background-size: cover;
     }
   }
+  .md\:bg-fixed {
+    @media (width >= 48rem) {
+      background-attachment: fixed;
+    }
+  }
   .md\:text-4xl {
     @media (width >= 48rem) {
       font-size: var(--text-4xl);
@@ -902,6 +907,11 @@
   .lg\:bg-cover {
     @media (width >= 64rem) {
       background-size: cover;
+    }
+  }
+  .lg\:bg-fixed {
+    @media (width >= 64rem) {
+      background-attachment: fixed;
     }
   }
   .lg\:px-8 {
