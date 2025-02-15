@@ -596,9 +596,6 @@
   .h-screen {
     height: 100vh;
   }
-  .w-5xl {
-    width: var(--container-5xl);
-  }
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
@@ -675,17 +672,8 @@
   .bg-primary {
     background-color: var(--color-primary);
   }
-  .bg-transparent {
-    background-color: transparent;
-  }
   .bg-white {
     background-color: var(--color-white);
-  }
-  .bg-\[url\(\.\/dist\/img\/hero-bg-01\.jpg\)\] {
-    background-image: url(./dist/img/hero-bg-01.jpg);
-  }
-  .bg-none {
-    background-image: none;
   }
   .bg-cover {
     background-size: cover;
@@ -695,9 +683,6 @@
   }
   .bg-center {
     background-position: center;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .fill-current {
     fill: currentColor;
